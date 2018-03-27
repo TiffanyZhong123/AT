@@ -1,5 +1,5 @@
 # AT
-# By: Andrew Chopey and Tiffany Zhong
+By: Andrew Chopey and Tiffany Zhong
 # Statement of Problem:
 What is the boolean value of the statement " it's possible to get from the starting position to treasure"
 # Recursive abstraction:
