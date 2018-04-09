@@ -7,7 +7,8 @@ What is the boolean value of the statement "it's possible to get from the starti
 ## Recursive abstraction:
 When I'm asked to return the boolean value from the current position, the recursive abstraction can return the boolean value of the statement is it possible to reach the treasure from the next position.
 ## Base case
-1)When the pathfinder can not make another valid move without backtracking.
+1)When the pathfinder can not make another valid move without backtracking return false.
+2)When you are standing on the treasure return true
 ## English or pseudocode description of algorithm
 For each junction check:
 
