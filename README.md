@@ -25,6 +25,9 @@ For each junction check:
       invoke the base case and then recursively backtrack
       
 If all junctions from the starting position have been checked and returned false then return false.
-
+## Known Bugs
+1)When compiling the UserOfMazeSolver the compiler returns this error message:
+>Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 0
+>at UserOfMazeSolver.main(UserOfMazeSolver.java:9)
 ## Class(es), with fields and methods
 ## Version*n* wish list
