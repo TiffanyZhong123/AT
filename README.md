@@ -1,7 +1,7 @@
 # AT
 ## Personnel
-Andrew Chopey
-Tiffany Zhong
+- Andrew Chopey
+- Tiffany Zhong
 ## Statement of Problem:
 What is the boolean value of the statement "it's possible to get from the starting position to treasure"?
 ## Recursive abstraction:
@@ -28,4 +28,6 @@ If all junctions from the starting position have been checked and returned false
 ## Known Bugs
 When no maze is given, UserOfMazeSolver returns an error message.
 ## Class(es), with fields and methods
-## Version n
+## Improvments made on V1
+-Adding comments to make the code more easily understood
+-Fixing UserOfMazeSolver to make compiling it simpler 
