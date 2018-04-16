@@ -29,5 +29,5 @@ If all junctions from the starting position have been checked and returned false
 When no maze is given, UserOfMazeSolver returns an error message.
 ## Class(es), with fields and methods
 ## Improvments made on V1
--Adding comments to make the code more easily understood
--Fixing UserOfMazeSolver to make compiling it simpler 
+- Adding comments to make the code more easily understood
+- Fixing UserOfMazeSolver to make compiling it simpler 
