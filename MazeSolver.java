@@ -9,25 +9,40 @@ public class MazeSolver{
 public static boolean solver(Maze solvethis){
     //base case
     if (solvethis.explorerIsOnA() == Maze.WALL){
+	
       return false;
     }
     //base case
     else if (solvethis.explorerIsOnA() == Maze.TREASURE){
+	
         return true;
       }
+    
     else
+	
     //recrusive abstraction
-  for(int direction:directions){
+    for(int direction:directions){
+       //checks each of the directions by alternating between the four
+	
        solvethis.dropA(Maze.WALL);  //makes sure that the explorer doesn't go back the same way.
-       Maze snapshot = new Maze(solvethis); // takes a picture
-       System.out.println("before picture:" + snapshot.toString());
-       solvethis.go(direction);
-       System.out.println("after picture:" + solvethis.toString());
+       
+       Maze snapshot = new Maze(solvethis); // takes a picture for the explorer to return to, just in case it steps outside the maze
+       
+       System.out.println("before:" + snapshot.toString());//Used for debugging
+       
+       solvethis.go(direction);//moves the explorer
+       
+       System.out.println("after:" + solvethis.toString());//Used for debugging
+       
        if (solver(solvethis)==false){
+	   
          //recursive backtracking
-         solvethis = new Maze(snapshot);}
+	   solvethis = new Maze(snapshot);} //resets the maze to its previous form
+       
        else
+	   
           return true;}
+    
         return false;
       }
 
