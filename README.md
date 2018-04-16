@@ -26,8 +26,6 @@ For each junction check:
       
 If all junctions from the starting position have been checked and returned false then return false.
 ## Known Bugs
-1)When compiling the UserOfMazeSolver the compiler returns this error message:
->Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 0
->at UserOfMazeSolver.main(UserOfMazeSolver.java:9)
+When no maze is given, UserOfMazeSolver returns an error message.
 ## Class(es), with fields and methods
-## Version*n* wish list
+## Version n
